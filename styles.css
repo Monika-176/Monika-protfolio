@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    margin: 2em auto;
+    padding: 2em;
+    background: #fff;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Skills and Achievements List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e8f5e9;
+    margin: 0.5em 0;
+    padding: 0.8em;
+    border-left: 5px solid #4caf50;
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #4caf50;
+    color: #fff;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
